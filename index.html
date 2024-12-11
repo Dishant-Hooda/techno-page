@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kay Vee Enterprises</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/ce584cc4ae.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navigation">
+        <img src="assets/logo.png" alt="company logo">
+        <ul id="sidemenu">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#services">Services</a>
+            </li>
+            <li>
+                <a href="#about">About Us</a>
+            </li>
+            <li>
+                <a href="#ideology">Our Ideology</a>
+            </li>
+            <li>
+                <a href="#certifications">Our Certificates</a>
+            </li>
+            <li>
+                <a href="#customers">Our Customers</a>
+            </li>
+            <li>
+                <a href="#contact">Contact Us</a>
+            </li>
+            <span class="material-symbols-outlined" onclick="closemenu()">
+                close
+            </span>
+        </ul>
+        <span class="material-symbols-outlined" onclick="openmenu()">
+            menu
+            </span>
+    </nav>
+    
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <section class="home" id="home">
+            <h1>KAY VEE ENTERPRISES</h1>
+            <p>
+                A Total Solution Company
+            </p>
+            <a href="#services" style="text-decoration: none;"><button>Discover</button></a>
+    </section>
+
+    <section class="services" id="services">
+        <span class="section-title">What we provide</span>
+        <h3>Choose a service package<br> that suits your needs</h3>
+        <div class="service-list-container">
+            <div class="service-items">
+                <div class="service-item">
+                    <img src="assets/services1.jpg"/>
+                    <h4>Infrastructure</h4>
+                    <ul>
+                        <li>Active Directory</li>
+                        <li>Database Servers</li>
+                        <li>Dekstop/Server/Application Virtualisation</li>
+                        <li>Dekstop/Laptops/Servers</li>
+                        <li>Netwrok Performance Management</li>
+                        <li>Office automation applications</li>
+                        <li>Software Development Tools</li>
+                        <li>Switches/Routers</li>
+                        <li>System Management tools</li>
+                        <li>Wireless LAN</li>
+                    </ul>
+                    <button>Know More</button>
+                </div>
+                <div class="service-item">
+                    <img src="assets/services2.jpg"/>
+                    <h4>Storage</h4>
+                    <ul>
+                        <li>Storage and management services</li>
+                        <li>Data Replication</li>
+                        <li>Auto Loaders</li>
+                        <li>Automated dekstop/ Laptop backup</li>
+                        <li>Automated Server Backup</li>
+                        <li>Disaster Recovery Solutions</li>
+                        <li>NAS/ SAN/ Unified data storage solutions</li>
+                    </ul>
+                    <button>Know More</button>
+                </div>
+                <div class="service-item">
+                    <img src="assets/services3.jpg"/>
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Administartaion Training</li>
+                        <li>Consultancy</li>
+                        <li>Data Classification</li>
+                        <li>Implentation Services</li>
+                        <li>Post Implentation Support</li>
+                        <li>Troubleshooting Support</li>
+                    </ul>
+                    <button>Know More</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="propositions propositions-1">
+            <img src="assets/servicesproposition1.jpg" alt="mountain">
+            <div class="content">
+                <h3>How can KAY VEE ENTERPRISES help your Bussiness</h3>
+                <br>
+                <p>At Kay Vee Enterprises, we have take consultancy concept one step further by offering a full service management organization with expertise.
+                </p>
+            </div>
+        </div>
+
+        <div class="propositions propositions-2">
+            <div class="content">
+                <h3>Accelerate your bussiness</h3>
+                <br>
+                <p>Kay Vee Enterprises provides the most innovative and customized business service in the industry.</p>
+            </div>
+            <img src="assets/servicesproposition2.jpg" alt="forest">
+        </div>
+
+        <!-- <div class="testimonials">
+            <h3>Read our customer testimonials</h3>
+            <br>
+            <p>Our clients are our partners</p>
+            <br>
+            <div class="testimonial-list-container">
+                <div class="testimonial-item">
+                    <img src="https://xsgames.co/randomusers/assets/avatars/male/69.jpg" alt="customer1">
+                    <br>
+                    <p class="italic">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae numquam iure, dolores mollitia perferendis aperiam repellendus pariatur suscipit ab minima.
+                    </p>
+                    <br>
+                    <p class="bold">
+                        Spice Owner
+                    </p>
+                    <br>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="https://xsgames.co/randomusers/assets/avatars/male/60.jpg" alt="customer2">
+                    <br>
+                    <p class="italic">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae numquam iure, dolores mollitia perferendis aperiam repellendus pariatur suscipit ab minima.
+                    </p>
+                    <br>
+                    <p class="bold">
+                        Spice Manager
+                    </p>
+                    <br>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="https://xsgames.co/randomusers/assets/avatars/male/7.jpg" alt="customer3">
+                    <br>
+                    <p class="italic">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae numquam iure, dolores mollitia perferendis aperiam repellendus pariatur suscipit ab minima.
+                    </p>
+                    <br>
+                    <p class="bold">
+                        Spice firend
+                    </p>
+                    <br>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="https://xsgames.co/randomusers/assets/avatars/male/20.jpg" alt="customer3">
+                    <br>
+                    <p class="italic">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae numquam iure, dolores mollitia perferendis aperiam repellendus pariatur suscipit ab minima.
+                    </p>
+                    <br>
+                    <p class="bold">
+                        Spice Lawyer
+                    </p>
+                    <br>
+                </div>
+
+                <div class="testimonial-item">
+                    <img src="https://xsgames.co/randomusers/assets/avatars/male/71.jpg" alt="customer4">
+                    <br>
+                    <p class="italic">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae numquam iure, dolores mollitia perferendis aperiam repellendus pariatur suscipit ab minima.
+                    </p>
+                    <br>
+                    <p class="bold">
+                        Spice Developer
+                    </p>
+                    <br>
+                </div>
+            </div>
+        -->
+        </div>
+    </section>
+
+    <section class="about" id="about">
+
+        <img src="assets/aboutimage.jpg" alt="About Image" loading="lazy">
+        <div class="content">
+            <span class="section-title">About Us</span>
+            <h3>We would be pleased to work with you</h3>
+            <br>
+            <p>
+                Established in 2015 Kay Vee Enterprises is one of the pioneers in providing I.T. Infrastructure and Solutions on various platforms.<br>
+                Kay Vee Enterprises has been patronized by the corporate world since inception. Blending intuition and rigor with ground reality business acumen, we believes in going beyond the role of a mere solution provider to its clientele. We uses technology as a means to empower customers by providing them with user-friendly solutions that enhance their productivity.
+                <br>
+                We understand that you require a high level of support at both pre-sales and post-sales levels which you can access through our engineers. You can be assured of a quality.
+                <br>
+                You can be assured of getting a good service and support from us.
+            </p>
+        </div>
+    </section>
+
+    <section class="ideology" id="ideology">
+        <img src="assets/ideology.jpg" alt="Our Ideology" loading="lazy">
+        <div class="content">
+            <span class="section-title">Our Ideology</span>
+            <h3>Get a consultant rather than a reseller</h3>
+            <br>
+            <p>
+                The priorities of the company are: <br>
+                <br>
+                a. Customer Service and Satisfaction <br>
+
+                b. Value addition <br>
+                
+                c. Quality of Service <br>
+                
+                d. Employee Satisfaction <br>
+                <br>
+                So when you deal with us you get a "Consultant rather than a Reseller." A consultant has to be company(vendor) independent to provide the customer with a solution that suits his/her environment.
+                <br>
+                <br>
+                Our key technical staff are trained. At Kay Vee Enterprises we try to build long-term sustainable relationships with our customers and suppliers
+            </p>
+        </div>
+    </section>
+
+    <section class="certifications" id="certifications">
+        <div class="content">
+            <span class="section-title">Our Achievements</span>
+            <h3>Certificates</h3>
+            <br>
+            <div class="work-list">
+                <div class="work">
+                    <img src="assets/44316_MS KAY VEE ENTERPRISES_CMMI 3_PQC.jpg" alt="">
+                </div>
+                <div class="work">
+                    <img src="assets/44317_MS KAY VEE ENTERPRISES_ISO 20000_PQC.jpg" alt="">
+                </div>
+                <div class="work">
+                    <img src="assets/Kay Vee ISO.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="customers">
+            <div class="content">
+                <!-- <span class="section-title">Our Customers</span> -->
+                <h3>Our Customers</h3>
+                <br>
+                <div class="customer-img">
+                    <img src="assets/customers.jpg" alt="">
+                </div>
+                <!--<div class="work-list">
+                    <div class="work">
+                        <img src="https://jdm.du.ac.in/images/logo-wide.png" alt="Company Name">
+                    </div>
+                    <div class="work"><img src="https://mscw.ac.in/images/logo.jpg" alt=""></div>
+                    
+                    <div class="work"><img src="https://www.shivajicollege.ac.in/img/shivajilogo-black.png" alt=""></div>
+                    
+                   
+                    
+                    <div class="work"><img src="https://www.rajdhanicollege.ac.in/views/newweb2/images/logo-white2.png" alt=""></div>
+                    
+                    
+                    
+                    <div class="work"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB_bq-pvmHSALK1cVVd7QJ22srAmPeEAT2RGfjKx14_A&s" alt=""></div>
+                    
+                    <div class="work"><img src="https://upload.wikimedia.org/wikipedia/en/4/49/Logo_of_Purecircle.png" alt="" ></div>
+                    
+                    <div class="work"><img src="https://iovrvf.org/assets/images/logo.png" alt=""></div>
+                    
+                    <div class="work"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuWHaF8dYIABVMtNnFZTO6r2hHroLjrAY9M5ZnRRxJxw&s" alt=""></div>
+                    
+                    <div class="work"><img src="https://static.wixstatic.com/media/52a24e_8ef6f3f8f5c54a8fba305847952a9cdd~mv2.png/v1/fill/w_77,h_77,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/The%20Circle%20Logo%20(Feb%202023)%20for%20Lighter%20Backgrounds.png" alt="" style="height: auto; width: 180px;"></div>
+                    
+                    <div class="work"><img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/HP_logo_630x630.png" alt="" style="width: 200px; height: auto;"></div>
+                    
+                    <div class="work"><img src="https://mms.businesswire.com/media/20231102226521/en/1321245/22/Lenovo_Logo.jpg" alt="" style="width: 250px;"></div>
+
+                    <div class="work"><img src="https://mac.du.ac.in/images/logo.png" alt=""></div>
+
+                    <div class="work"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7ehW8WFykgZXUVlBmLJyIrjG70fqJ308M6Xzsaco0jg&s" alt=""></div>
+                </div>-->
+            </div>
+    </section>  
+
+    <section class="contact" id="contact">
+
+        <div class="content">
+            <span class="section-title">Contact</span>
+            <h3>Get in touch</h3>
+            <br>
+            <p>
+                Confused or Having a Question? <br>Don't hesitate to reach us any moment.
+            </p>
+            <br>
+            <div class="content-info-list-container">
+                <div class="contact-info-item">
+                    <span><span class="material-symbols-outlined">
+                        pin_drop
+                        </span></span>
+                    <p>X\1964 Street No 8 Rajgarh Extension II Delhi-110031</p>
+                </div>
+                <div class="contact-info-item">
+                    <span><span class="material-symbols-outlined">
+                        map
+                        </span></span>
+                    <p><a href="#">View  us on Map</a></p>
+                </div>
+                <div class="contact-info-item">
+                    <span><span class="material-symbols-outlined">
+                        support_agent
+                        </span></span>
+                    <p>+91 9811370766</p>
+                </div>
+                <div class="contact-info-item">
+                    <span><span class="material-symbols-outlined">
+                        mail
+                        </span></span>
+                    <p>info@kayveeenterprises.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <!-- <div class="footer-list-container">
+            <div class="footer-items wide">
+                <h5>few words about us</h5>
+                <br>
+                <p>
+                    You can get software based solutions for networks, file servers, database servers, web application servers, system management servers, and a host of other solutions including storage & backup management from one place itself rather than patching up different vendors or integrators.
+                </p>
+            </div>
+
+            <div class="footer-items">
+                <h5>Links</h5>
+                <br>
+                <a href="#">Terms and conditions</a>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div> -->
+        <div class="copyright">
+        <span>Kay Vee Enterprises &copy; 2015 - Made with <i style="color: red;"
+            class="fa-solid fa-heart"></i> by Dishant</span>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/939e6b092a.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
